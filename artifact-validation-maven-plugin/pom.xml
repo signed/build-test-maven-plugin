@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.signed.maven.plugin.maven-artifact-validation-plugin</groupId>
+        <groupId>com.github.signed.maven.plugin.buildtest</groupId>
         <artifactId>project</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>artifact-validation-maven-plugin</artifactId>
+    <artifactId>build-test-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
 
     <properties>
