@@ -13,7 +13,7 @@
 
     <modules>
         <module>artifact-validation</module>
-        <module>artifact-validation-maven-plugin</module>
+        <module>build-test-maven-plugin</module>
         <module>sample-usage</module>
     </modules>
 </project>
