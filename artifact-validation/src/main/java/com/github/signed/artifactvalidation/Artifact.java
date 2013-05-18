@@ -1,4 +1,4 @@
-package some;
+package com.github.signed.artifactvalidation;
 
 import org.zeroturnaround.zip.ZipUtil;
 
