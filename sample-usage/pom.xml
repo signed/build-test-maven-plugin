@@ -34,7 +34,7 @@
                 <executions>
                     <execution>
                         <id>add-test-source</id>
-                        <phase>generate-test-sources</phase>
+                        <phase>validate</phase>
                         <goals>
                             <goal>add-test-source</goal>
                         </goals>
