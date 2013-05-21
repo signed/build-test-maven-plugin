@@ -28,16 +28,29 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>add-test-source</id>
+                        <phase>generate-test-sources</phase>
+                        <goals>
+                            <goal>add-test-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>${project.basedir}/src/validate/java</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>build-test-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>
-                    <execution>
-                        <id>add-validation-test-source-folder</id>
-                        <goals>
-                            <goal>addTestSourceRoot</goal>
-                        </goals>
-                    </execution>
                     <execution>
                         <id>maven-executor-plugin</id>
                         <goals>
