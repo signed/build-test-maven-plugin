@@ -1,7 +1,7 @@
 package dummy;
 
+import com.github.signed.artifactvalidation.Artifact;
 import org.junit.Test;
-import some.Artifact;
 
 import java.util.Properties;
 
